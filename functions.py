@@ -40,7 +40,7 @@ def getVideoIDs():
     """
 
 
-    channel_id = 'UCl9gWl0bfUL0J_rgSRWiYpg' # my YouTube channel ID
+    channel_id = 'UCl9gWl0bfUL0J_rgSRWiYpg' # my channel ID from youtube
     page_token = None # initialize page token
     url = 'https://www.googleapis.com/youtube/v3/search' # YouTube search API endpoint
     my_key = os.getenv('YT_API_KEY')
